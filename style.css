@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    min-height: 100vh;
+    background: linear-gradient(160deg, #087262, #42175c);
+    color: #fff;
+    padding: 1.8rem;
+}
+
+.calcy {
+    padding: 2rem;
+}
+
+.calcy h1 {
+    font-size: 2.5rem;
+}
+
+.calcy h1 span a {
+    text-decoration: none;
+    color: rgb(246, 42, 6);
+}
+
+.ipbox {
+    min-height: 20vh;
+    background: #ffffff1c;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+.ipbox input,
+.ipbox button {
+    height: 2.2rem;
+    width: 10rem;
+    margin: 1.4rem;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.ipbox input {
+    background: rgb(174, 244, 235);
+    text-transform: uppercase;
+}
+
+.ipbox button {
+    background: #0cdae1;
+    transition: .3s;
+}
+
+.ipbox button:active {
+    background: #10ac66;
+}
+
+#result {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#result span {
+    color: rgb(255, 0, 0);
+}
